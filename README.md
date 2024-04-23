@@ -34,7 +34,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Chen, Yifei; Çöltekin, Çağrı
+Contributors: Chen, Yifei; Wang, John; Çöltekin, Çağrı
 Contributing: here
 Contact: cagri.coeltekin@uni-tuebingen.de
 ===============================================================================
