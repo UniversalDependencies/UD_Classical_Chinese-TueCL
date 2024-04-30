@@ -1,16 +1,15 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
-
+A dependency Treebank of "逍遥游(Enjoyment in Untroubled Ease)" written by Zhuangzi.
 
 # Introduction
 
-...
+Full text of the source is available at:
+<https://chinesenotes.com/zhuangzi/zhuangzi001.html> (in both EN&CN),
+and translation to modern Chinese is available at <https://so.gushiwen.cn/shiwenv_5bfecbe60620.aspx>
+(or <http://www.acmuller.net/con-dao/zhuangzi.html>).
 
 
-# Acknowledgments
-
-...
 
 ## References
 
@@ -36,6 +35,6 @@ Features: manual native
 Relations: manual native
 Contributors: Chen, Yifei; Wang, John; Çöltekin, Çağrı
 Contributing: here
-Contact: cagri.coeltekin@uni-tuebingen.de
+Contact: yifei.chen@student.uni-tuebingen.de,johnz.wang@outlook.com,cagri.coeltekin@uni-tuebingen.de
 ===============================================================================
 </pre>
