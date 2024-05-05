@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>100</sentences><tokens>648</tokens><words>648</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>100</sentences><tokens>648</tokens><words>648</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="244" /><!-- 之, 也, 而, 者, 其, 不, 爲, 有, 知, 里, 以, 則, 南, 大, 天 -->
+  <forms unique="247" /><!-- 之, 也, 而, 者, 其, 不, 爲, 有, 知, 里, 以, 則, 南, 大, 天 -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">23</tag><!-- 大, 小, 靑, 南, 善, 志, 數, 泠, 淺, 生 -->
+    <tag name="ADP">9</tag><!-- 於, 乎, 之, 以 -->
+    <tag name="ADV">71</tag><!-- 不, 則, 且, 亦, 未, 乃, 以, 故, 猶, 乎 -->
+    <tag name="AUX">8</tag><!-- 爲 -->
+    <tag name="CCONJ">26</tag><!-- 而, 與 -->
+    <tag name="DET">3</tag><!-- 數, 之 -->
+    <tag name="NOUN">174</tag><!-- 里, 天, 南, 冥, 名, 歲, 水, 上, 世, 人 -->
+    <tag name="NUM">27</tag><!-- 一, 九, 千, 三, 五百, 八, 六, 萬, 三千, 二 -->
+    <tag name="PART">68</tag><!-- 也, 者, 矣, 然, 夫, 所, 焉, 邪, 乎, 哉 -->
+    <tag name="PRON">47</tag><!-- 其, 之, 彼, 此, 是, 奚, 我, _, 己, 惡 -->
+    <tag name="PROPN">16</tag><!-- 鯤, 齊諧, 冥靈, 列, 子, 宋, 彭, 棘, 楚, 榮 -->
+    <tag name="SCONJ">21</tag><!-- 之 -->
+    <tag name="VERB">155</tag><!-- 有, 知, 適, 以, 無, 若, 曰, 負, 爲, 笑 -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="18">
+    <feat name="AdvType" value="Cau" upos="ADV">3</feat><!-- 奚, 何 -->
+    <feat name="AdvType" value="Tim" upos="ADV">13</feat><!-- 則, 乃, 將 -->
+    <feat name="Case" value="Loc" upos="NOUN,PROPN">38</feat><!-- 天, 南, 上, 世, 下, 北, 地, 池, 海, 內 -->
+    <feat name="Case" value="Tem" upos="NOUN">25</feat><!-- 歲, 年, 後, 春, 秋, 今, 月, 古, 日, 時 -->
+    <feat name="Degree" value="Equ" upos="ADV,VERB">6</feat><!-- 若, 猶 -->
+    <feat name="Degree" value="Pos" upos="NOUN,VERB">26</feat><!-- 冥, 厚, 大, 數, 正, 然, 窮, 久, 匹, 太 -->
+    <feat name="NameType" value="Giv" upos="PROPN">6</feat><!-- 鯤, 彭祖, 榮, 湯 -->
+    <feat name="NameType" value="Nat" upos="PROPN">1</feat><!-- 楚 -->
+    <feat name="NameType" value="Sur" upos="PROPN">2</feat><!-- 宋, 閼 -->
+    <feat name="NounType" value="Clf" upos="NOUN">11</feat><!-- 里, 仞 -->
+    <feat name="Person" value="1" upos="PRON">2</feat><!-- 我 -->
+    <feat name="Person" value="3" upos="PRON">22</feat><!-- 其, 之 -->
+    <feat name="Polarity" value="Neg" upos="ADV,VERB">25</feat><!-- 不, 无, 未, 莫, 非 -->
+    <feat name="PronType" value="Dem" upos="PRON">15</feat><!-- 彼, 此, 是, 斯, 焉 -->
+    <feat name="PronType" value="Int" upos="PRON">2</feat><!-- 奚 -->
+    <feat name="PronType" value="Prs" upos="PRON">26</feat><!-- 其, 之, 我, 己, 自 -->
+    <feat name="Reflex" value="Yes" upos="PRON">2</feat><!-- 己, 自 -->
+    <feat name="Tense" value="Fut" upos="ADV">2</feat><!-- 將 -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="30">
+    <dep name="acl">14</dep>
+    <dep name="advcl">15</dep>
+    <dep name="advmod">70</dep>
+    <dep name="amod">30</dep>
+    <dep name="case">33</dep>
+    <dep name="cc">19</dep>
+    <dep name="ccomp">4</dep>
+    <dep name="clf">1</dep>
+    <dep name="compound">3</dep>
+    <dep name="conj">21</dep>
+    <dep name="cop">5</dep>
+    <dep name="csubj">9</dep>
+    <dep name="det">6</dep>
+    <dep name="discourse">12</dep>
+    <dep name="discourse:sp">26</dep>
+    <dep name="dislocated">4</dep>
+    <dep name="fixed">6</dep>
+    <dep name="flat">8</dep>
+    <dep name="flat:vv">3</dep>
+    <dep name="iobj">1</dep>
+    <dep name="mark">14</dep>
+    <dep name="nmod">39</dep>
+    <dep name="nsubj">72</dep>
+    <dep name="nummod">23</dep>
+    <dep name="obj">80</dep>
+    <dep name="obl">6</dep>
+    <dep name="obl:lmod">5</dep>
+    <dep name="obl:tmod">9</dep>
+    <dep name="parataxis">10</dep>
+    <dep name="root">100</dep>
+  </deps>
+</treebank>
