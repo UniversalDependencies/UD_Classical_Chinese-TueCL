@@ -450,7 +450,7 @@
 # text = 奚以之九萬里而南爲
 # gloss = why rising to 90,000 li and fly towards the South?'
 # 为什么要到九万里的高空再向南飞呢。奚以：何以。之：去到。南：名词作动词，向南（飞行）。为：做，成为。
-1	奚	奚	PRON	_	PronType=Int	3	obj	_	Gloss=how|SpaceAfter=No
+1	奚	奚	PRON	_	PronType=Int	3	obl	_	Gloss=how|SpaceAfter=No
 2	以	以	ADP	_	_	1	case	_	Gloss=use|SpaceAfter=No
 3	之	之	PRON	_	Person=3|PronType=Prs	0	root	_	Gloss=[3PRON]|SpaceAfter=No
 4	九萬	九	NUM	_	_	5	nummod	_	Gloss=ninety-thousand|SpaceAfter=No
@@ -544,7 +544,7 @@
 # gloss = How do we know that it is so?
 # 怎么知道是这样的呢？
 # ???”然“应该是代词
-1	奚	奚	PRON	_	PronType=Int	3	obj	_	Gloss=how|SpaceAfter=No
+1	奚	奚	PRON	_	PronType=Int	3	obl	_	Gloss=how|SpaceAfter=No
 2	以	以	VERB	_	_	1	case	_	Gloss=use|SpaceAfter=No
 3	知	知	VERB	_	_	0	root	_	Gloss=know|SpaceAfter=No
 4	其	其	PRON	_	Person=3|PronType=Prs	5	nsubj	_	Gloss=[3PRON]|SpaceAfter=No
