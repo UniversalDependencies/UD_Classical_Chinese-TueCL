@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Classical_Chinese-TueCL:
-commit 0aab6b7c42016df35c860a69ef93a4679d72d074
-Merge: 067d908 0d35ec4
+commit 13fa548ce322c639c5a0acc4f3db5aa26ced610a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 18:59:07 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'lzh_tuecl'
 Language code (from CoNLL-U file name) = 'lzh'
@@ -25,20 +25,22 @@ Universal relations: 26 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang lzh --max-err=10 UD_Classical_Chinese-TueCL/lzh_tuecl-ud-test.conllu
-[Line 250 Sent 21]: [L3 Warning fixed-without-extpos] Fixed expression '且 夫' does not have the 'ExtPos' feature
-[Line 251 Sent 21]: [L3 Warning pron-det-without-prontype] The word '夫' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 445 Sent 37]: [L3 Warning fixed-without-extpos] Fixed expression '而 已' does not have the 'ExtPos' feature
-[Line 455 Sent 38]: [L3 Syntax too-many-objects] Multiple direct objects [1, 5] ('奚', '里') under the predicate '之'.
-[Line 482 Sent 40]: [L3 Warning fixed-without-extpos] Fixed expression '果 然' does not have the 'ExtPos' feature
-[Line 513 Sent 43]: [L3 Warning pron-det-without-prontype] The word '之' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 724 Sent 62]: [L3 Warning pron-det-without-prontype] The word '數' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 874 Sent 77]: [L3 Warning pron-det-without-prontype] The word '數 数' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 956 Sent 83]: [L3 Warning pron-det-without-prontype] The word '其' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1043 Sent 90]: [L3 Warning pron-det-without-prontype] The word '其' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1047 Sent 90]: [L3 Warning fixed-without-extpos] Fixed expression '數數 然' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Syntax errors: 1
+[Line 250 Sent 21]: [L3 WARNING fixed-without-extpos] Fixed expression '且 夫' does not have the 'ExtPos' feature
+[Line 251 Sent 21]: [L3 WARNING pron-det-without-prontype] The word '夫' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 445 Sent 37]: [L3 WARNING fixed-without-extpos] Fixed expression '而 已' does not have the 'ExtPos' feature
+[Line 455 Sent 38]: [L3 SYNTAX too-many-objects] Multiple direct objects [1, 5] ('奚', '里') under the predicate '之'.
+[Line 482 Sent 40]: [L3 WARNING fixed-without-extpos] Fixed expression '果 然' does not have the 'ExtPos' feature
+[Line 513 Sent 43]: [L3 WARNING pron-det-without-prontype] The word '之' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 724 Sent 62]: [L3 WARNING pron-det-without-prontype] The word '數' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 874 Sent 77]: [L3 WARNING pron-det-without-prontype] The word '數 数' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 956 Sent 83]: [L3 WARNING pron-det-without-prontype] The word '其' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1043 Sent 90]: [L3 WARNING pron-det-without-prontype] The word '其' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1047 Sent 90]: [L3 WARNING fixed-without-extpos] Fixed expression '數數 然' does not have the 'ExtPos' feature
+[Line 1074 Sent 92]: [L3 WARNING fixed-without-extpos] Fixed expression '泠 然' does not have the 'ExtPos' feature
+[Line 1102 Sent 94]: [L3 WARNING fixed-without-extpos] Fixed expression '數 然' does not have the 'ExtPos' feature
+[Line 1154 Sent 97]: [L3 WARNING pron-det-without-prontype] The word '惡 恶' is tagged 'PRON' but it lacks the 'PronType' feature
 Warnings: 13
+SYNTAX errors: 1
 *** FAILED *** with 1 errors
 Exit code: 1
 Validity: 0.01
